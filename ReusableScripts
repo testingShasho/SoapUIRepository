@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="6b47fc38-ad29-437c-a809-ce7d41761f9b" activeEnvironment="Default" name="AutomationScript" resourceRoot="" soapui-version="5.4.0" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:testSuite id="79e14c1f-099c-41f1-b264-8187978e07e9" name="ReusableScriptTestSuite"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="e2478af3-decf-46a9-ad11-80c22cebb184" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="ReusableTestCase" searchProperties="true"><con:settings/><con:testStep type="groovy" name="ReusableScript" id="28f55c61-f5f9-443d-8814-fd85ad74503a"><con:settings/><con:config><script>class Testing{
+<con:soapui-project id="6b47fc38-ad29-437c-a809-ce7d41761f9b" activeEnvironment="Default" name="AutomationScript" resourceRoot="" soapui-version="5.4.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:testSuite id="79e14c1f-099c-41f1-b264-8187978e07e9" name="ReusableScriptTestSuite"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="e2478af3-decf-46a9-ad11-80c22cebb184" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="ReusableTestCase" searchProperties="true"><con:settings/><con:testStep type="groovy" name="ReusableScript" id="28f55c61-f5f9-443d-8814-fd85ad74503a"><con:settings/><con:config><script>class Testing{
 	def log
 	def context
 	def testRunner
@@ -12,7 +12,7 @@
 		}
 	def displayMessage(){
 
-		log.info "This is Reusable Method"
+		log.info "This is Reusable automation scripts "
 		}
 
 	def calculateSum(def a, def b){
