@@ -31,4 +31,4 @@ def reusableStep=suiteRef.testCases["ReusableTestCase"].testSteps["ReusableScrip
 reusableStep.run(testRunner,context)
 def myobj=context.obj
 myobj.displayMessage()
-myobj.calculateSum(23,43)</script></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
+myobj.calculateSum(50,50)</script></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
